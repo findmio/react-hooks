@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "react-hooks",
+  "private": false,
+  "name": "@findmio/react-hooks",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -14,22 +14,18 @@
     "prepublishOnly": "npm run build",
     "prepare": "husky install",
     "pretty-quick": "pretty-quick --staged",
-    "lint": "eslint \"src/**/*.{ts,tsx}\""
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "publish": "npm publish ./lib --access public"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findmio/react-hooks",
+    "branch": "main"
   },
   "dependencies": {
+    "antd": "^4.18.5",
     "react": "^16.12.0 || ^17.0.0"
   },
   "devDependencies": {

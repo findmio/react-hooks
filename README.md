@@ -1,33 +1,3 @@
-# hooks
+# react-hooks
 
-## Getting Started
-
-Install dependencies,
-
-```bash
-$ npm i
-```
-
-Start the dev server,
-
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
-```
+一些常用的 Hooks，详情查看 [https://findmio.github.io/react-hooks/](https://findmio.github.io/react-hooks/)
