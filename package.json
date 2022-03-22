@@ -1,8 +1,10 @@
 {
   "private": false,
   "name": "@findmio/react-hooks",
-  "version": "1.0.0",
-  "files": ["es"],
+  "version": "1.0.1",
+  "files": [
+    "es"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
